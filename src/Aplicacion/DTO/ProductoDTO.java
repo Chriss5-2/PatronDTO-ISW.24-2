@@ -1,24 +1,14 @@
 package Aplicacion.DTO;
 
 public class ProductoDTO {
-    private int idProduct;
     private String nombre;
     private double precio;
     private int cantidad;
 
-    public ProductoDTO(int idProduct, String nombre, double precio, int cantidad) {
-        this.idProduct = idProduct;
+    public ProductoDTO(String nombre, double precio, int cantidad) {
         this.nombre = nombre;
         this.precio = precio;
         this.cantidad = cantidad;
-    }
-
-    public int getIdProduct() {
-        return this.idProduct;
-    }
-
-    public void setIdProduct(int idProducto) {
-        this.idProduct = idProducto;
     }
 
     public String getNombre() {

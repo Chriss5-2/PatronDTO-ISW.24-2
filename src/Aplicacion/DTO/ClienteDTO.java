@@ -1,30 +1,18 @@
 package Aplicacion.DTO;
 
 public class ClienteDTO {
-    private int idCliente;
     private String nombre;
     private String apellidoPaterno;
     private String apellidoMaterno;
     private String email;
 
-
-    public ClienteDTO(int idCliente, String nombre, String apellidoPaterno, String apellidoMaterno, String email) {
-        this.idCliente = idCliente;
+    public ClienteDTO(String nombre, String apellidoPaterno, String apellidoMaterno, String email) {
         this.nombre = nombre;
         this.apellidoPaterno = apellidoPaterno;
         this.apellidoMaterno = apellidoMaterno;
         this.email = email;
     }
-
     // Getters y Setters
-    public int getIdCliente() {
-        return idCliente;
-    }
-
-    public void setIdCliente(int idCliente) {
-        this.idCliente = idCliente;
-    }
-
     public String getNombre() {
         return nombre;
     }

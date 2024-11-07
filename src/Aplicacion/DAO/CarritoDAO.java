@@ -29,7 +29,7 @@ public class CarritoDAO {
         List<ProductoDTO> listaProductosDTO = new ArrayList<>();
         for (Producto producto : productos) {
             ProductoDTO productoDTO = new ProductoDTO(
-                    producto.getIdProduct(),
+                    //producto.getIdProduct(),
                     producto.getNombre(),
                     producto.getPrecio(),
                     producto.getStock()

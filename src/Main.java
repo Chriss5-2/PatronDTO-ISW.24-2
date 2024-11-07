@@ -27,8 +27,8 @@ public class Main {
         // Mostrar la información de los clientes en la consola
         System.out.println("Lista de Clientes:");
         for (ClienteDTO clienteDTO : listaClientesDTO) {
-            System.out.println("ID: " + clienteDTO.getIdCliente() +
-                    ", Nombre: " + clienteDTO.getNombre() +
+            System.out.println(
+                    "Nombre: " + clienteDTO.getNombre() +
                     ", Apellido Paterno: " + clienteDTO.getApellidoPaterno() +
                     ", Apellido Materno: " + clienteDTO.getApellidoMaterno() +
                     ", Email: " + clienteDTO.getEmail());
@@ -53,8 +53,8 @@ public class Main {
         // Mostrar la información de los productos en la consola
         System.out.println("\nLista de Productos en el Carrito:");
         for (ProductoDTO productoDTO : listaProductosDTO) {
-            System.out.println("ID: " + productoDTO.getIdProduct() +
-                    ", Nombre: " + productoDTO.getNombre() +
+            System.out.println(
+                    "Nombre: " + productoDTO.getNombre() +
                     ", Precio: " + productoDTO.getPrecio() +
                     ", Cantidad: " + productoDTO.getCantidad());
         }
